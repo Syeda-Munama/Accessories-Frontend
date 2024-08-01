@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+/* .container{
+    margin: 5rem;
+} */
+.model-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(246, 241, 241);
+}
+.model-container{
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    /* bottom: 10% ; */
+    /* transform: translate(-20,-20); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30rem;
+}

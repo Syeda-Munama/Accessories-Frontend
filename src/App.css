@@ -1,0 +1,31 @@
+/* Navbar */
+.navbar-nav a{
+    font-size: 18px;
+}
+ul{
+    list-style:disc;
+}
+/* CONTACT PAGE start */
+.container-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 20px 0 20px;
+}
+.contactUs{
+        width: 50%;
+        padding-bottom: 50px;
+}
+.contactUs h1{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+}
+/* CONTACT PAGE end */
+    
+.app{
+    display: flex;
+    justify-content:space-around;
+}
