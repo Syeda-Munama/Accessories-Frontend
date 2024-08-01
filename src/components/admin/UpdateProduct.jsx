@@ -54,12 +54,12 @@ const UpdateProduct = () => {
         {filterPrducts?.map((product) => (
           <div className="col-12 col-sm-6 col-md-3 mb-4" key={product._id}>
             <div className="card h-100 text-center p-4">
-              <img
+              {/* <img
                 src={product.image}
                 className="card-img-top"
                 height="250px"
                 alt={product.title}
-              />
+              /> */}
               <div className="card-body">
                 <h5 className="card-title mb-0">
                   {product.title.substring(0, 12)}...
