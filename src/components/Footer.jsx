@@ -77,7 +77,7 @@ const Footer = () => {
                     <span className="fa-li">
                       <HomeIcon />
                     </span>
-                    <span className="ms-2">Warsaw, 00-967, Italy</span>
+                    <span className="ms-2">DHA, Karachi</span>
                   </li>
                   <li className="mb-3">
                     <span className="fa-li">
@@ -89,7 +89,7 @@ const Footer = () => {
                     <span className="fa-li">
                       <CallIcon />
                     </span>
-                    <span className="ms-2">+ 48 234 567 88</span>
+                    <span className="ms-2">+92 335 2083609</span>
                   </li>
                 </ul>
               </div>
@@ -106,11 +106,11 @@ const Footer = () => {
                     </tr>
                     <tr>
                       <td>Fri - Sat:</td>
-                      <td>8am - 1am</td>
+                      <td>8am - 9am</td>
                     </tr>
                     <tr>
                       <td>Sunday:</td>
-                      <td>9am - 10pm</td>
+                      <td>8am - 10pm</td>
                     </tr>
                   </tbody>
                 </table>
