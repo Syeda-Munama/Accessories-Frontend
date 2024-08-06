@@ -47,9 +47,10 @@ const Stock = () => {
             {allProduct.data.map((item, index) => (
               <div key={index} className="col-12 col-md-4 mb-4">
                 <div className="card h-100 text-center p-3">
-                  <p>Category: <span className="fw-bold">{item.category}</span></p>
+                  {/* <p>Category: <span className="fw-bold">{item.category}</span></p> */}
                   <p>Title: <span className="fw-bold">{item.title}</span></p>
                   <p>Stock: <span className="fw-bold">{item.stock}</span></p>
+                  <p>Product ID: <span className="fw-bold">{item.product_id}</span></p>
                 </div>
               </div>
             ))}
